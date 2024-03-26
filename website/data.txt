@@ -1,0 +1,10 @@
+Array
+(
+    [FACULTY_ID] => 001
+    [FACULTY_NAME] => Loki
+    [FACULTY_DEPARTMENT] => CSE
+    [FACULTY_EMAIL] => loki@gmail.com
+    [PASSWORD] => 6515414141
+    [ROLE] => Admin
+    [ROLE_DESCRIPTION] => HOD
+)

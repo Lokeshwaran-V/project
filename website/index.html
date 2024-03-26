@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Faculty Login form</title>
+<style>
+
+    form {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+    }
+    fieldset {
+        background-color: #eeeeee;
+        max-width: 25%;
+        min-width: fit-content;
+        font-family: serif;
+        font-size: 20px;
+        display: block;
+
+    }
+    label {
+        display: inline-block;
+        width: 50%;
+        font-family: serif;
+        font-size: 25px;
+    }
+    option {
+        font-family: serif;
+        font-size: 25px;
+    }
+    staffName{
+        font-family: serif;
+        font-size: 25px;
+    }
+
+
+</style>
+</head>
+<body>
+
+    <form action="index.php" method="post">
+        <fieldset id="formfield"> <legend align = center> FACULTY REGISTRATION </legend><br>
+            <label for="staffId">Staff ID </label>
+            <input type="text" id="staffId" name="staffId" placeholder="Staff ID" required> <br><br><br>
+
+            <label for="staffName">Staff Name </label>
+            <input type="text" id="staffName" name="staffName" placeholder="Staff Name" required> <br><br><br>
+
+            <label for="DepartmentName"> Department </label>
+            <select id="DepartmentName" name="DepartmentName" required>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="BME">BME</option>
+            </select><br><br><br>
+
+            <label for="year"> Year </label>
+            <select id="year" name="year" required>
+                <option value="1st year">1st year</option>
+                <option value="2nd year">2nd year</option>
+                <option value="3rd year">3rd year</option>
+                <option value="4th year">4th year</option>
+            </select> <br><br><br>
+
+            <label for="subjectName">Subject Name </label>
+            <select id="subjectName" name="subjectName" required>
+                <option value="cns">cns</option>
+                <option value="pom">pom</option>
+                <option value="esia">esia</option>
+            </select> <br><br><br>
+
+
+            <label for="hours">Number of Hours </label>
+            <input type="number" id="hours" name="hours" min="1" required> <br><br><br>
+            <center>
+                <input type="submit" value="Submit">
+            </center>
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
